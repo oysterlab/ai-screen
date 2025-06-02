@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Screen Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="projector">
+        <div id="projector-content" class="hidden"></div>
+    </div>
+    <div id="monitor">
+        <div class="window" style="--i:0">A</div>
+        <div class="window" style="--i:1">B</div>
+        <div class="window" style="--i:2">C</div>
+    </div>
+    <div id="controls">
+        <button id="spread">Spread (⇡)</button>
+        <button id="gather">Gather (⇣)</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
